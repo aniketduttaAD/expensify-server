@@ -14,7 +14,7 @@ const sheet_id = process.env.SHEET_ID;
 
 const prisma = new PrismaClient();
 const auth = new google.auth.GoogleAuth({
-  keyFile: "shtina-ba827-d93f38763dd2.json",
+  keyFile: "google-service-account.json",
   scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
